@@ -1,9 +1,6 @@
-<!doctype html>
-<html>
-<head>
-    <title>Главная страница сайта</title>
-</head>
-<body>
-    <h1>Главная страница сайта</h1>
-</body>
-</html>
+{% extends 'base.html' %}
+
+{% block content %}
+{{ super() }}
+<p>Содержимое главной страницы</p>
+{% endblock %}
